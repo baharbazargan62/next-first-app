@@ -1,9 +1,9 @@
 import React from 'react'
 
-function index() {
+function AllEventsPage() {
   return (
-    <div>index</div>
+    <div>AllEventsPage</div> 
   )
 }
 
-export default index
+export default AllEventsPage
