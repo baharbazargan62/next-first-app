@@ -2,8 +2,8 @@ import React from 'react'
 
 function EventDetailPage() {
   return (
-    <div>[eventId]</div>
+    <div>Event detail</div>
   )
 }
 
-export default [eventId]
+export default EventDetailPage;
