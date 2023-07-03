@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import classes from "event-item.module.css";
+import classes from "./event-item.module.css";
 function EventItem(props) {
     const {title,image,date,location,id}=props;
     const humanReadableDate= new Date(date).toLocaleString("en-US",{
